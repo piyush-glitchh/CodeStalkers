@@ -1,0 +1,102 @@
+body {
+    background-image: url('https://i.pinimg.com/736x/83/be/11/83be11c0368373897b6edda02d94981d.jpg');  
+    background-size: cover;                  
+    background-position: center;             
+    background-repeat: no-repeat; 
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  
+  nav {
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;            
+    padding: 20px;
+    background-color: #333;          
+    color: white;                    
+  }
+
+
+  .logo-container {
+    display: flex;
+    align-items: center;             
+  }
+
+  .logo {
+    width: 40px;                    
+    height: auto;                   
+    margin-right: 10px;
+    height: 50px;
+    width: 50px;               
+  }
+
+  .company-name {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+
+  .nav-links {
+    display: flex;
+    gap: 20px; 
+  }
+
+  .nav-links a {
+    color: white;                    
+    text-decoration: none;          
+    font-size: 18px;                 
+    padding: 8px 15px;
+    transition: background-color 0.3s; 
+  }
+
+  .nav-links a:hover {
+    background-color: #555;         
+    border-radius: 5px;            
+  }
+.heading {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 30px;
+}
+.heading2 {
+    text-align: center;
+    font-size: 25px;
+}
+.share-button {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #f80a81;  
+    color: white;               
+    font-size: 18px;            
+    font-weight: bold;
+    border: none;               
+    border-radius: 7px;         
+    cursor: pointer;           
+    text-align: center;         
+    text-decoration: none;      
+    transition: background-color 0.3s, transform 0.2s;
+    margin-bottom: 80px; 
+
+
+  }
+
+  .share-button:hover {
+    background-color: #0c309b;  
+    transform: scale(1.05);      
+  }
+
+  .share-button:active {
+    background-color: #969696;  
+  }
+  .App {
+    padding-bottom: 30px;
+
+  }
